@@ -13,10 +13,12 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
+            Hi there 👋<span className="fancy">.</span>
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+          <p>You are probably wondering what this is about. To summarise, this isn't a personal blog, but rather a personal space where I publish some of my study notes. The focus of this online space is simply to gather a collection of knowledge about some of the topics which I'm currently exploring. The notes I publish here can be viewed by anyone, but the main reason I publish them here is to expand my own understanding of some topics, so don't expect them to be perfect or error-free. That being said, I greatly appreaciate feeback! Please feel free to reach out via <a href="mailto:hello@veegish.com">Email</a> or <a href="https://twitter.com/veegish" target="_blank">Twitter</a> if there's anything you would like to discuss with me :)</p>
+          <span className="handle"><strong>Looking for a blog instead?</strong></span>
+          <p><a href="https://veegish.com/blog">veegish.com/blog</a></p>
+          <h2>Social Links</h2>
           <SocialList />
         </div>
       </div>
@@ -26,6 +28,8 @@ export default function Index() {
           align-items: center;
           justify-content: center;
           flex: 1 1 auto;
+          max-width: 800px;
+          margin: 0px auto;
           padding: 0 1.5rem;
         }
         h1 {
