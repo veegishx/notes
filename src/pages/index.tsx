@@ -51,6 +51,9 @@ export default function Index() {
           color: #9b9b9b;
           letter-spacing: 0.05em;
         }
+        p {
+          line-height: 1.6;
+        }
 
         @media (min-width: 769px) {
           h1 {
