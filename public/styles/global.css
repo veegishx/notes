@@ -16,14 +16,18 @@ body {
 }
 
 a {
-  color: #9b9b9b;
+  color: #0072ff;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-a:active,
 a:hover {
-  color: #000;
+  color: #0073ffc0;
+}
+
+a:active {
+  color: #004090;
+  font-weight: 500;
 }
 
 .youtube-container {
