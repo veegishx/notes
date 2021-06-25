@@ -32,6 +32,13 @@ export default function Index() {
           margin: 0px auto;
           padding: 0 1.5rem;
         }
+        .container:hover {
+          cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✏️</text></svg>") 0 20,auto; /*!emojicursor.app*/
+        }
+        p::selection {
+          color: black;
+          background: yellow;
+        }
         h1 {
           font-size: 2.5rem;
           margin: 0;
@@ -53,6 +60,7 @@ export default function Index() {
         }
         p {
           line-height: 1.6;
+          color: #000056;
         }
 
         @media (min-width: 769px) {
